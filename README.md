@@ -1,6 +1,6 @@
 # Sohan Pandit - Portfolio
 
-Welcome to the personal portfolio website of **Sohan Pandit**, a final-year BSMS student at IISER Bhopal, specializing in Earth and Environmental Sciences.
+Welcome to the personal portfolio website of **Sohan Pandit**, a final-year BSMS student at IISER Bhopal, Majoring in Earth and Environmental Sciences.
 
 This portfolio showcases my academic journey, research projects in Geostatistics and Machine Learning, and my vision for the future of our planet.
 
