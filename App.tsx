@@ -733,7 +733,7 @@ const App: React.FC = () => {
             </div>
             <div className="flex flex-col justify-end items-end gap-6">
 
-              <p className="text-[10px] uppercase tracking-widest">© 2026 SOHAN PANDIT. PORTFOLIO VERSION 1</p>
+              <p className="text-[10px] uppercase tracking-widest">© 2026 SOHAN PANDIT. PORTFOLIO</p>
             </div>
           </div>
         </div>
