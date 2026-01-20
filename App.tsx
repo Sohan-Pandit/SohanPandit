@@ -291,7 +291,7 @@ const App: React.FC = () => {
                <motion.div 
                  whileHover={{ scale: 1.05 }}
                  transition={{ duration: 0.8 }}
-                 className="absolute inset-0 bg-[url('./profile.jpg')] bg-cover bg-center grayscale group-hover:grayscale-0 transition-all duration-700"
+                 className="absolute inset-0 bg-[url('/profile.jpg')] bg-cover bg-center grayscale group-hover:grayscale-0 transition-all duration-700"
                />
                <div className="absolute inset-0 bg-gradient-to-t from-earth-950/40 via-transparent to-transparent opacity-60" />
                <div className="absolute inset-0 ring-1 ring-inset ring-white/10" />
