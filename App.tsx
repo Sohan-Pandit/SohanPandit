@@ -143,12 +143,31 @@ const App: React.FC = () => {
   const { scrollYProgress } = useScroll();
   const scaleX = useSpring(scrollYProgress, { stiffness: 100, damping: 30, restDelta: 0.001 });
 
-  const handleFormSubmit = (e: React.FormEvent) => {
+  const handleFormSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     setFormStatus('sending');
-    setTimeout(() => {
-      setFormStatus('sent');
-    }, 2000);
+    
+    const formData = new FormData(e.currentTarget);
+    
+    try {
+      const response = await fetch("https://formspree.io/f/xpqqlkpk", {
+        method: "POST",
+        body: formData,
+        headers: {
+          'Accept': 'application/json'
+        }
+      });
+
+      if (response.ok) {
+        setFormStatus('sent');
+      } else {
+        setFormStatus('idle');
+        alert("Oops! There was a problem submitting your form");
+      }
+    } catch (error) {
+      setFormStatus('idle');
+      alert("Oops! There was a problem submitting your form");
+    }
   };
 
   useEffect(() => {
@@ -647,6 +666,7 @@ const App: React.FC = () => {
                           <input 
                             required
                             type="text" 
+                            name="name"
                             className="w-full px-6 py-4 bg-stone-50 dark:bg-stone-950 border border-stone-100 dark:border-stone-800 rounded-2xl focus:outline-none focus:border-earth-500 transition-colors"
                             placeholder="Enter your name"
                           />
@@ -656,6 +676,7 @@ const App: React.FC = () => {
                           <input 
                             required
                             type="email" 
+                            name="email"
                             className="w-full px-6 py-4 bg-stone-50 dark:bg-stone-950 border border-stone-100 dark:border-stone-800 rounded-2xl focus:outline-none focus:border-earth-500 transition-colors"
                             placeholder="Enter your email"
                           />
@@ -666,6 +687,7 @@ const App: React.FC = () => {
                         <input 
                           required
                           type="text" 
+                          name="subject"
                           className="w-full px-6 py-4 bg-stone-50 dark:bg-stone-950 border border-stone-100 dark:border-stone-800 rounded-2xl focus:outline-none focus:border-earth-500 transition-colors"
                           placeholder="Research Collaboration"
                         />
@@ -675,6 +697,7 @@ const App: React.FC = () => {
                         <textarea 
                           required
                           rows={5}
+                          name="message"
                           className="w-full px-6 py-4 bg-stone-50 dark:bg-stone-950 border border-stone-100 dark:border-stone-800 rounded-2xl focus:outline-none focus:border-earth-500 transition-colors resize-none"
                           placeholder="Tell me more about your project..."
                         ></textarea>
