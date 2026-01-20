@@ -4,7 +4,7 @@ Welcome to the personal portfolio website of **Sohan Pandit**, a final-year BSMS
 
 This portfolio showcases my academic journey, research projects in Geostatistics and Machine Learning, and my vision for the future of our planet.
 
-## 🚀 Features
+## Features
 
 - **Modern Design**: Built with React, Vite, and Tailwind CSS for a sleek, responsive, and "premium" feel.
 - **Animations**: Smooth transitions and interactive elements powered by `framer-motion`.
@@ -13,7 +13,7 @@ This portfolio showcases my academic journey, research projects in Geostatistics
 - **3D Elements**: Uses `three.js` and `@react-three/fiber` for immersive visual effects.
 - **Dark Mode**: Fully supported dark/light mode toggling.
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Frontend**: [React](https://react.dev/) + [Vite](https://vitejs.dev/)
 - **Styling**: [Tailwind CSS](https://tailwindcss.com/)
@@ -21,7 +21,7 @@ This portfolio showcases my academic journey, research projects in Geostatistics
 - **Icons**: [Lucide React](https://lucide.dev/)
 - **3D**: [React Three Fiber](https://docs.pmnd.rs/react-three-fiber)
 
-## 💻 Run Locally
+## Run Locally
 
 To run this project locally on your machine:
 
@@ -47,7 +47,7 @@ To run this project locally on your machine:
 4.  **Open in Browser**:
     Visit `http://localhost:5173` (or the port shown in your terminal).
 
-## 📄 License
+## License
 
 This project is licensed under the Apache-2.0 License.
 
