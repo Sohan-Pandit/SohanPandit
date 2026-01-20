@@ -1,20 +1,56 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Sohan Pandit - Portfolio
 
-# Run and deploy your AI Studio app
+Welcome to the personal portfolio website of **Sohan Pandit**, a final-year BSMS student at IISER Bhopal, specializing in Earth and Environmental Sciences.
 
-This contains everything you need to run your app locally.
+This portfolio showcases my academic journey, research projects in Geostatistics and Machine Learning, and my vision for the future of our planet.
 
-View your app in AI Studio: https://ai.studio/apps/drive/18acJwhPUi2B3i6p5aWSXejggkgVMWSAO
+## 🚀 Features
 
-## Run Locally
+- **Modern Design**: Built with React, Vite, and Tailwind CSS for a sleek, responsive, and "premium" feel.
+- **Animations**: Smooth transitions and interactive elements powered by `framer-motion`.
+- **Research Portfolio**: Detailed showcase of research projects, guides, and key findings.
+- **Contact Form**: Integrated functional contact form with validation and success states.
+- **3D Elements**: Uses `three.js` and `@react-three/fiber` for immersive visual effects.
+- **Dark Mode**: Fully supported dark/light mode toggling.
 
-**Prerequisites:**  Node.js
+## 🛠️ Tech Stack
 
+- **Frontend**: [React](https://react.dev/) + [Vite](https://vitejs.dev/)
+- **Styling**: [Tailwind CSS](https://tailwindcss.com/)
+- **Animations**: [Framer Motion](https://www.framer.com/motion/)
+- **Icons**: [Lucide React](https://lucide.dev/)
+- **3D**: [React Three Fiber](https://docs.pmnd.rs/react-three-fiber)
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## 💻 Run Locally
+
+To run this project locally on your machine:
+
+1.  **Clone the repository**:
+
+    ```bash
+    git clone https://github.com/Sohan-Pandit/SohanPandit.git
+    cd SohanPandit
+    ```
+
+2.  **Install dependencies**:
+
+    ```bash
+    npm install
+    ```
+
+3.  **Start the development server**:
+
+    ```bash
+    npm run dev
+    ```
+
+4.  **Open in Browser**:
+    Visit `http://localhost:5173` (or the port shown in your terminal).
+
+## 📄 License
+
+This project is licensed under the Apache-2.0 License.
+
+---
+
+_Created by Sohan Pandit_
