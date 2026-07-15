@@ -90,15 +90,15 @@ const researchProjects = [
   {
     title: "Geostatistical Approach for Filling the Gaps in Wind Field Data",
     guide: "Guide: Dr. Sanjeev Kumar Jha, IISER-B",
-    date: "11/2025 – Present",
+    date: "11/2025 – 5/2026",
     icon: Wind,
-    tags: ["MPS", "Deep Learning", "Himalayas"],
+    tags: ["MPS", "Deep Learning", "Himalayas", "Coastal Region"],
     desc: "Developed advanced gap-filling methodologies using Multiple-Point Statistics (MPS) and Deep Learning for wind field data reconstruction in the Indian Himalayan Region. Addressing sensor failures in complex terrain, achieving over 90% reconstruction accuracy to support climate modeling and renewable energy assessment."
   },
   {
     title: "Fog Impacts in Central and Northern India: A Comparative Analysis",
     guide: "Guide: Dr. Sanjeev Kumar Jha, IISER-B",
-    date: "04/2025 – 10/2025",
+    date: "04/2025 – 11/2025",
     icon: Globe,
     tags: ["Meteorology", "ML", "Aviation Safety"],
     desc: "Analyzing meteorological characteristics of fog events in Bhopal and Lucknow (2016-2024). Studied humidity, dew-point spread, and aerosol inhibition. Validating fog prediction models using machine learning with a target accuracy of >80% to build safer transportation systems."
@@ -106,7 +106,7 @@ const researchProjects = [
   {
     title: "Deep Learning-based Downscaling of Surface Wind Fields",
     guide: "Guide: Dr. Sanjeev Kumar Jha, IISER-B",
-    date: "08/2025 – Present",
+    date: "08/2025 – 01/2026",
     icon: Code,
     tags: ["Downscaling", "Bias Correction", "Hydrology"],
     desc: "Developing a deep learning framework to enhance spatial resolution and accuracy of surface wind data. Integrates advanced learning models with statistical correction for terrain-wind interactions, critical for snowpack and hydrological modeling in the Himalayas."
@@ -114,7 +114,7 @@ const researchProjects = [
   {
     title: "Vulnerability Assessments of Extreme Events in Indian Himalayan Region",
     guide: "Guide: Dr. Sanjeev Kumar Jha, IISER-B",
-    date: "06/2025 – Present",
+    date: "06/2025 – 12/2025",
     icon: AlertTriangle,
     tags: ["IPCC AR5/AR6", "GIS", "Risk Reduction"],
     desc: "District-level vulnerability assessment of floods, landslides, and avalanches. Assessing socio-economic factors and local infrastructure based on IPCC methodology to provide an objective basis for disaster risk reduction interventions."
@@ -427,16 +427,21 @@ const App: React.FC = () => {
             <div className="lg:col-span-2 space-y-8">
               {[
                 { 
+                  title: "PhD (Environmental Science and Engineering Department)", 
+                  place: "IIT Bombay", 
+                  date: "2026 – Present",
+                  desc: "Current research focuses on flood risk assesment and different aspects of hydrology."
+                },
+                { 
                   title: "BS-MS (Earth and Environmental Science)", 
                   place: "IISER Bhopal", 
                   date: "2021 – Present",
-                  desc: "Current research focuses on geostatistical modeling for wind field data reconstruction and fog prediction validation using machine learning."
-                },
+                  desc: "MS thesis focuses on geostatistical modeling for wind field data reconstruction ."                },
                 { 
                   title: "Higher Secondary", 
                   place: "Bankura Municipal High School", 
                   date: "2019 – 2021",
-                  desc: "Focused on core sciences with emphasis on environmental studies and mathematics."
+                  desc: "Focused on core sciences with emphasis on Physics, Chemistry, Biology and mathematics."
                 },
                 { 
                   title: "Secondary", 
