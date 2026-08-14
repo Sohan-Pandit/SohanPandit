@@ -236,7 +236,7 @@ const App: React.FC = () => {
                 View Research <ChevronRight size={16} />
               </a>
               <div className="flex items-center gap-4">
-                 <a href="mailto:sohan21@iiserb.ac.in" className="p-4 rounded-full border border-stone-200 dark:border-stone-800 hover:text-earth-500 transition-colors"><Mail size={20} /></a>
+                 <a href="mailto:sohanpandit0105@gmail.com" className="p-4 rounded-full border border-stone-200 dark:border-stone-800 hover:text-earth-500 transition-colors"><Mail size={20} /></a>
                  <a href="https://www.linkedin.com/in/sohan-pandit" target="_blank" className="p-4 rounded-full border border-stone-200 dark:border-stone-800 hover:text-earth-500 transition-colors"><Linkedin size={20} /></a>
                  <a href="https://github.com/Sohan-Pandit" target="_blank" className="p-4 rounded-full border border-stone-200 dark:border-stone-800 hover:text-earth-500 transition-colors"><Github size={20} /></a>
               </div>
@@ -597,7 +597,7 @@ const App: React.FC = () => {
               </p>
               
               <motion.a 
-                href="mailto:sohan21@iiserb.ac.in"
+                href="mailto:sohanpandit0105@gmail.com"
                 whileHover={{ x: 10 }}
                 className="flex items-center gap-6 p-6 bg-white dark:bg-stone-900 rounded-3xl border border-stone-100 dark:border-stone-800 shadow-sm group"
               >
@@ -606,7 +606,7 @@ const App: React.FC = () => {
                 </div>
                 <div>
                   <p className="text-[10px] font-bold uppercase tracking-widest text-stone-400 mb-1">Email Me</p>
-                  <p className="font-serif text-lg">sohan21@iiserb.ac.in</p>
+                  <p className="font-serif text-lg">sohanpandit0105@gmail.com</p>
                 </div>
               </motion.a>
 
@@ -732,7 +732,7 @@ const App: React.FC = () => {
             <div>
               <h2 className="font-serif text-5xl text-white mb-8">Let's shape the <br /><span className="italic text-earth-500">future of our Earth.</span></h2>
               <div className="space-y-4">
-                <div className="flex items-center gap-3"><Mail className="w-4 h-4" /> sohan21@iiserb.ac.in</div>
+                <div className="flex items-center gap-3"><Mail className="w-4 h-4" /> sohanpandit0105@gmail.com</div>
                 <div className="flex items-center gap-3"><MapPin className="w-4 h-4" /> Bhopal, India</div>
               </div>
             </div>
