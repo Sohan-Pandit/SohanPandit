@@ -554,7 +554,7 @@ const App: React.FC = () => {
                 ))}
               </div>
             </div>
-            <div className="relative">
+            {/* <div className="relative">
               <div className="p-12 bg-stone-950 text-white rounded-[40px] relative overflow-hidden shadow-2xl border border-stone-800">
                 <div className="absolute top-0 right-0 w-64 h-64 bg-earth-900 rounded-full -mr-32 -mt-32 opacity-20" />
                 <h3 className="font-serif text-4xl mb-8 relative z-10">Achievement Awards</h3>
@@ -582,7 +582,7 @@ const App: React.FC = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       
             {/* 3. CONTACT SECTION */}
             <section id="contact" className="py-32 bg-stone-50 dark:bg-stone-900">
