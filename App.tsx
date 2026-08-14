@@ -355,7 +355,7 @@ const App: React.FC = () => {
                 {
                   title: "Placement Associate of Placement Cell",
                   org: "Indian Institute of Science Education and Research (IISER), Bhopal",
-                  date: "06/2023 – Present",
+                  date: "06/2023 – 05/2024",
                   icon: <Briefcase className="w-5 h-5" />,
                   details: "Coordinating recruitment cycles, managing industry outreach, and assisting graduating batches in career placement activities."
                 },
@@ -369,14 +369,14 @@ const App: React.FC = () => {
                 {
                   title: "Mess president",
                   org: "IISER Bhopal",
-                  date: "11/2025 – Present",
+                  date: "11/2025 – 5/2026",
                   icon: <Users className="w-5 h-5" />,
                   details: "Organized mess activities, managed mess logistics, and ensured smooth running of mess operations."
                 },
                 {
                   title: "Core Committee Member, Computing and Networking Council (CNC)",
                   org: "IISER Bhopal",
-                  date: "08/2022 – Present",
+                  date: "08/2022 – 06/2023",
                   icon: <Code className="w-5 h-5" />,
                   details: "Providing technical infrastructure support, community management, and event management for the council."
                 },
